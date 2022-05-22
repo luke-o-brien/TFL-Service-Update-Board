@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* .Line-update-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}  */
+.line-container {
+  width: 90%;
+}
+
+.line-container {
+  width: 50%;
+  margin: 0 auto;
+  /* box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px; */
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  /*   */
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+h1 {
+  margin-top: -5px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.update-container {
+  margin-top: 20px;
+}
+
+span {
+  font-size: 10px;
+  margin: 5px;
+}
+
+a {
+  font-size: 15px;
+  text-decoration: underline;
+  color: black;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+a:hover {
+  color: #0009AB;
+}
+
+a i {
+  color: black;
+}
+
+a i:hover {
+  color: #0009AB;
+}
+.header {
+  background-color:#0009AB;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+h2 {
+  margin: 10px;
+}
+h3 {
+  margin: 10px;
+  font-weight: 100;
+}
+p {
+  margin: 10px;
+  font-size: 15px;
+}
+
+
+i {
+  color: red;
+  padding-left: 10px;
+}
+.bakerloo {
+  border-left: solid 10px #B36305;
+}
+
+.central {
+  border-left: solid 10px #E32017;
+}
+.circle {
+  border-left: solid 10px #FFD300;
+}
+
+.district {
+  border-left: solid 10px #00782A;
+}
+.hammersmith-city{
+  border-left: solid 10px #F3A9BB;
+}
+.jubilee {
+  border-left: solid 10px #A0A5A9;
+}
+.metropolitan {
+  border-left: solid 10px #9B0056;
+}
+.northern {
+  border-left: solid 10px #000000;
+}
+.piccadilly {
+  border-left: solid 10px #003688;
+}
+.victoria {
+  border-left: solid 10px #0098D4;
+}
+.waterloo-city {
+  border-left: solid 10px #95CDBA;
+}
+.dlr {
+  border-left: solid 10px #00A4A7;
+}
+
+.london-overground {
+  border-left: solid 10px #EE7C0E;
+}
+
+.elizabeth {
+  border-left: solid 10px #7156A5;
+}
+.tfl-rail{
+  border-left: solid 10px #0009AB;
+}
+.tram {
+  border-left: solid 10px #84B817;
+}
+
+
+.problem {
+  background-color: yellow;
+}
+@media screen and (max-width: 450px) { 
+  .line-container {
+    width: 90%;
+  }
+
+  .line-container {
+    width: 90%;
+    margin: 0 auto;
+    /* box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    /*   */
+    margin-bottom: 7px;
+    margin-top: 7px;
+  }
+  h1 {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .update-container {
+    margin-top: 20px;
+  }
+  
+  span {
+    font-size: 10px;
+    margin: 5px;
+  }
+}
