@@ -56,6 +56,15 @@ return <div key={line.lineId}>
 ### UI Design 
 
 for this project I opted for a simple clean design with Line appropriate accent colours. I used conditionally rendered anchor tags with simple underline for users to click on to display more information. The red warning circle was used to make it more obvious to the user where the problems are. I used a consitant clear font on all componants with varing font weights to indicate different purposes of the text.   
+<p align="center">
+<img src="src/images/screenshots/screenshot-mobile.png" width="300" position/></img>
+</p>
+<p align="center">
+<img src="src/images/screenshots/screenshot-mobile-disruption-details.png" alt="drawing" width="300" position/></img>
+</p>
+<p align="center">
+<img src="src/images/screenshots/screenshot-desktop.png" alt="drawing"></img>
+</p>
 
 ### Potential Future developments 
 - remove coming soon componant and update stylesheet once Elizabeth line has opened 
