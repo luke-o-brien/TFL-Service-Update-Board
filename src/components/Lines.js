@@ -1,8 +1,5 @@
 import react from "react";
 import React from "react"
-import Elizabeth from "./Elizabeth";
-
-
 
 function Lines() {
   const [tubeLines, setTubeLines] = React.useState(undefined)
@@ -16,7 +13,7 @@ function Lines() {
   }
   React.useEffect(() => {
     async function fetchLines() {
-      const resp = await fetch('https://api.tfl.gov.uk/line/mode/tube,overground,dlr,tflrail,tram/status/')
+      const resp = await fetch('https://api.tfl.gov.uk/line/mode/tube,overground,dlr,tflrail,tram,elizabeth-line/status/')
       const tubeLines = await resp.json()
       setTubeLines(tubeLines)
     }
@@ -47,7 +44,6 @@ function Lines() {
       
       }) : <p>Loading data please wait...</p>
     }
-    <Elizabeth/>
   </div>
 
 }

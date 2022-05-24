@@ -1,6 +1,5 @@
 import React from "react"
 import Lines from "./components/Lines"
-import Elizabeth from "./components/Elizabeth"
 
 function App() {
   return <div>
